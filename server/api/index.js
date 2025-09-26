@@ -72,6 +72,7 @@ if (process.env.NODE_ENV === 'production') {
   module.exports = app;
 } else {
   // For local development: try next ports if 3000 is busy
+  
   const startServer = (port, attempt = 1, maxAttempts = 5) => {
     const server = app.listen(port, () => {
       console.log(`Server running on port ${port}`);
