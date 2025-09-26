@@ -1,8 +1,10 @@
 ## Track only app folders by default
 /*
 !.gitignore
+!/README.md
 !/client/
 !/server/
+!/README.md
 
 # Logs
 logs
